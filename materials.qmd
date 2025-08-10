@@ -1,0 +1,184 @@
+---
+title: "Materials"
+---
+
+```{=html}
+<br>
+<br>
+<table class="custom-materials-table">
+  <thead>
+    <tr>
+      <th>Unit</th>
+      <th>Topic</th>
+      <th>Lecture</th>
+      <th>Supplementary Materials</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id="introduction-to-the-course" class="unit-start">
+      <td rowspan="4">Unit 1 – The Nuts and Bolts of Political ‘Science’</td>
+      <td>Introduction to the Course</td>
+      <td><a href="/lecture_slides/01_introduction/PS0700_2022_Course_Introduction.pdf" target="_blank">Lecture&nbsp;1</a></td>
+      <td>
+      <a href="/lecture_supplementary_materials/01_introduction/PS0700_2022_Recitation_Course_Introduction.pdf" target="_blank">Recitation</a></td>
+      <td></td>
+    </tr>
+    <tr id="political-science-as-a-science" class="lecture-row">
+      <td>Political Science as a “Science”</td>
+      <td><a href="/lecture_slides/02_political_science_as_a_science/PS0700_2022_Political_Science_as_a_Science.pdf" target="_blank">Lecture 2</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/02_political_science_as_a_science/PS0700_2022_Recitation_Political_Science_as_a_Science.pdf" target="_blank">Recitation</a></td>
+    <td></td>
+    </tr>
+    <tr id="theories-hypotheses-variables" class="lecture-row">
+      <td>Theories, Hypotheses, Variables</td>
+      <td><a href="/lecture_slides/03_theories_hypotheses_variables/PS0700_2022_Theories_Hypotheses_Variables.pdf" target="_blank">Lecture 3</a></td>
+      <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+    <tr id="measurement" class="lecture-row">
+      <td>Measurement</td>
+      <td><a href="/lecture_slides/04_measurement/PS0700_2022_Measurement.pdf" target="_blank">Lecture 4</a></td>
+      <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+    <tr id="causality" class="unit-start">
+      <td rowspan="4">Unit 2 – Research Designs in Political Science</td>
+      <td>Causality</td>
+      <td><a href="/lecture_slides/05_causality/PS0700_2022_Causality.pdf" target="_blank">Lecture&nbsp;5</a></td>
+     <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+    <tr id="experimental-designs" class="lecture-row">
+      <td>Experimental Designs</td>
+      <td><a href="/lecture_slides/06_experimental_designs/PS0700_2022_Experiments.pdf" target="_blank">Lecture&nbsp;6</a></td>
+      <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+    <tr id="quasi-experiments" class="lecture-row">
+      <td>Quasi-Experiments</td>
+      <td><a href="/lecture_slides/07_quasi_experiments/PS0700_2022_Quasi_Experiments_and_Observational_Designs.pdf" target="_blank">Lecture&nbsp;7</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/07_quasi_experiments/PS0700_2022_Recitation_Quasi_Experiments_and_Observational_Designs.pdf" target="_blank">Recitation</a><br></td>
+      <td></td>
+    </tr>
+    <tr id="observational-designs" class="lecture-row">
+      <td>Observational Designs</td>
+      <td><a href="/lecture_slides/08_observational_designs/PS0700_2022_Quasi_Experiments_and_Observational_Designs.pdf" target="_blank">Lecture&nbsp;7</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/08_observational_designs/PS0700_2022_Recitation_Quasi_Experiments_and_Observational_Designs.pdf" target="_blank">Recitation</a><br></td>
+      <td></td>
+    </tr>
+    <tr id="rational-choice-and-formal-modeling" class="unit-start">
+      <td rowspan="2">Unit 3 – Research Designs II — Formal, Comparative, and Qualitative Approaches</td>
+      <td>Rational Choice and Formal Modeling</td>
+      <td><a href="/lecture_slides/09_rational_choice_and_formal_modeling/PS0700_2022_Formal_and_Rational_Choice_Models_I.pdf" target="_blank">Lecture&nbsp;8</a><br>
+      <a href="/lecture_slides/09_rational_choice_and_formal_modeling/PS0700_2022_Formal_and_Rational_Choice_Models_II.pdf" target="_blank">Lecture&nbsp;9</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/09_rational_choice_and_formal_modeling/PS0700_2022_Recitation_Rational_Choice_Models.pdf" target="_blank">Recitation</a><br></td>
+      <td></td>
+    </tr>
+    <tr id="comparative-and-qualitative-research" class="lecture-row">
+      <td>Comparative and Qualitative Research</td>
+      <td><a href="/lecture_slides/10_comparative_and_qualitative_research/PS0700_2022_Qualitative_and_Comparative.pdf" target="_blank">Lecture&nbsp;10</a><br>
+      <a href="/lecture_slides/10_comparative_and_qualitative_research/PS0700_2022_Qualitative_Data_Collection.pdf" target="_blank">Lecture&nbsp;11</a></td>
+      <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+    <tr id="survey-research" class="unit-start">
+      <td rowspan="2">Unit 4 – Data Collection Strategies</td>
+      <td>Survey Research</td>
+      <td><a href="/lecture_slides/11_survey_research/PS0700_2022_Surveys_and_Sampling.pdf" target="_blank">Lecture&nbsp;12</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/11_survey_research/PS0700_2022_Recitation_Survey_and_Big_Data.pdf" target="_blank">Recitation</a></td>
+      <td></td>
+    </tr>
+    <tr id="content-analysis-and-big-data" class="lecture-row">
+      <td>Content Analysis and Big Data</td>
+      <td><a href="/lecture_slides/12_content_analysis_and_big_data/PS0700_2022_Content_Analysis_Big_Data.pdf" target="_blank">Lecture&nbsp;13</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/12_content_analysis_and_big_data/PS0700_2022_Recitation_Survey_and_Big_Data.pdf" target="_blank">Recitation</a></td>
+      <td></td>
+    </tr>
+    <tr id="descriptive-statistics" class="unit-start">
+      <td rowspan="5">Unit 5 – Basic Statistical Methods</td>
+      <td>Descriptive Statistics and Introduction to Inference</td>
+      <td><a href="/lecture_slides/13_descriptive_statistics/PS0700_2022_Descriptive_Statistics.pdf" target="_blank">Lecture&nbsp;14</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/13_descriptive_statistics/PS0700_2022_Recitation_Descriptive_Statistics.pdf" target="_blank">Recitation</a></td>
+      <td></td>
+    </tr>
+    <tr id="statistical-inference" class="lecture-row">
+      <td>Statistical Inference and Hypothesis Testing</td>
+     <td><a href="/lecture_slides/14_statistical_inference/PS0700_2022_Statistical_Inference.pdf" target="_blank">Lecture&nbsp;15</a><br>
+     <a href="/lecture_slides/14_statistical_inference/PS0700_2022_Hypothesis_Testing_and_T_Tests_R.pdf" target="_blank">Lecture&nbsp;16</a></td>
+      <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+    <tr id="cross-tabulation" class="lecture-row">
+      <td>Cross-Tabulation</td>
+      <td><a href="/lecture_slides/15_cross_tabulation/PS0700_2022_Crosstabulation.pdf" target="_blank">Lecture&nbsp;17</a><br>
+      <a href="/lecture_slides/15_cross_tabulation/PS0700_2022_Crosstabulation_ANES_Example.pdf" target="_blank">Lecture&nbsp;18</a></td>
+      <td>
+        <a href="/lecture_supplementary_materials/15_cross_tabulation/PS0700_2022_Recitation_R_Tutorial_Cross_Tabulation.pdf" target="_blank">Recitation</a></td>
+      <td></td>
+    </tr>
+    <tr id="correlation-and-regression" class="lecture-row">
+      <td>Correlation and Regression</td>
+      <td><a href="/lecture_slides/16_correlation_and_regression/PS0700_2022_Regression.pdf" target="_blank">Lecture&nbsp;19</a></td>
+      <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+    <tr id="multivariate-analysis" class="lecture-row">
+      <td>Multivariate Analysis</td>
+<td><a href="/lecture_slides/17_multivariate_analysis/PS0700_2022_Multivariate_Analysis.pdf" target="_blank">Lecture&nbsp;20</a></td>
+      <td>
+  <span style="display: inline-block; margin-left: 1.75em;color: #888; font-size: 1.1em">&ndash;</span>
+    </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    const hash = window.location.hash;
+
+    if (hash) {
+      setTimeout(() => {
+        const target = document.querySelector(hash);
+
+        // Accept either lecture-row or unit-start targets
+        if (target && (target.classList.contains("lecture-row") || target.classList.contains("unit-start"))) {
+          target.classList.add("highlight");
+
+          if (target.classList.contains("unit-start")) {
+            target.classList.add("unit-highlight");
+          }
+
+          setTimeout(() => {
+            target.classList.remove("highlight");
+            target.classList.remove("unit-highlight");
+          }, 3000);
+
+          history.replaceState(null, null, window.location.pathname);
+        }
+      }, 100);
+    }
+  });
+</script>
+
+```

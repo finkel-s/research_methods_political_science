@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Steven E. Finkel 📧 finkel@pitt.edu">
+
+<title>Research Methods in Political Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./syllabus.html">Syllabus</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./images/ps0700_logo-modified.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./materials.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Materials</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://finkel-s.github.io/teaching.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Other Courses</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#course-description" id="toc-course-description" class="nav-link active" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#texts" id="toc-texts" class="nav-link" data-scroll-target="#texts">Texts</a></li>
+  <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements">Course Requirements</a></li>
+  <li><a href="#course-outline" id="toc-course-outline" class="nav-link" data-scroll-target="#course-outline">Course Outline</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research Methods in Political Science</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://finkel-s.github.io/about.html" target="_blank"><strong>Steven E. Finkel</strong></a><br><a href="mailto:finkel@pitt.edu">📧 finkel@pitt.edu</a> </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="course-description" class="level2">
+<h2 data-anchor-id="course-description">Course Description</h2>
+<div class="justify-text">
+<p>This course serves as an introduction to the methodology of political science research. The course will begin with the logic of social scientific inquiry and the basics of research design, and then introduce students to the quantitative and qualitative methods that are commonly used by political scientists to investigate important questions about the political world.</p>
+<p>The goals of the course are:</p>
+<ol type="1">
+<li>For the student to become both an intelligent consumer of quantitative and qualitative research, with the ability to see the strengths and flaws of social scientific studies in academic journals and books, newspapers, websites, and other outlets.<br>
+</li>
+<li>To give students the skills necessary to begin conducting original political science research studies of their own.</li>
+</ol>
+<p>By the end of the class, students will have developed a critical understanding of issues related to scientific inquiry, measurement, causal inference, experimental, quasi-experimental and observational research, formal modeling, comparative research, sampling and survey research, focus groups, in-depth interviewing, case studies and other qualitative methods of data collection.</p>
+<p>Students will also learn fundamental concepts in descriptive and inferential statistics, and in data analytic techniques such as crosstabulation, correlation and regression analysis, and will develop the skills to apply these methods using the R statistical package.</p>
+</div>
+</section>
+<section id="texts" class="level2">
+<h2 data-anchor-id="texts">Texts</h2>
+<div class="justify-text">
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd Edition. Cambridge: Cambridge University Press.</li>
+</ul>
+<p>Students will be using <strong>R</strong> for learning the various statistical techniques and for conducting the research exercise. We’ll provide step-by-step instructions in using R as the course progresses. You can find general introductions in:</p>
+<ul>
+<li>Imai, Kosuke. 2017. <em>Quantitative Social Science: An Introduction</em>, Princeton University Press.</li>
+<li>Wickham, Hadley, Mine Çetinkaya-Rundel, and Garrett Grolemund. 2023. <em>R for Data Science</em> (2nd ed.). O’Reilly Media. Available at: <a href="https://r4ds.hadley.nz/">https://r4ds.hadley.nz/</a>.</li>
+</ul>
+</div>
+</section>
+<section id="course-requirements" class="level2">
+<h2 data-anchor-id="course-requirements">Course Requirements</h2>
+<div class="justify-text">
+<p>Grades will be based on three exams, one research exercise, and participation in class discussion and the recitation section. The first two exams will be held in-class, and the last exam will be held at the normal scheduled time during finals week.</p>
+<p>The research exercise will be an approximately seven-page paper in which you:</p>
+<ul>
+<li>Specify hypothesized relationships between political variables;</li>
+<li>Use R to test the hypotheses with quantitative methods on data that will be made available to you; and,</li>
+<li>Interpret the results of the analyses.</li>
+</ul>
+</div>
+</section>
+<section id="course-outline" class="level2">
+<h2 data-anchor-id="course-outline">Course Outline</h2>
+<div class="justify-text">
+<p>The course is organized by units and then topics within units. We will maintain a certain amount of flexibility with the schedule, so that we can spend more time on some topics/units and scale back on others as circumstances warrant.</p>
+<section id="unit-1-the-nuts-and-bolts-of-political-science" class="level3">
+<h3 data-anchor-id="unit-1-the-nuts-and-bolts-of-political-science">Unit 1: The Nuts and Bolts of Political ‘Science’</h3>
+<section id="introduction-to-the-course" class="level4">
+<h4 data-anchor-id="introduction-to-the-course">1. <a href="materials.html#introduction-to-the-course">Introduction to the Course</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapter 1.</li>
+</ul>
+</section>
+<section id="political-science-as-a-science" class="level4">
+<h4 data-anchor-id="political-science-as-a-science">2. <a href="materials.html#political-science-as-a-science">Political Science as a “Science”</a></h4>
+<ul>
+<li>Easton, David. 1991. “Political Science in the United States: Past and Present.” In <em>Divided Knowledge: Across Disciplines, Across Cultures</em>, eds.&nbsp;David Easton and Corinne Schelling. Sage Publications.<br>
+</li>
+<li>Kasza, Gregory J. 2001. “Perestroika: For an Ecumenical Science of Politics.” <em>PS: Political Science &amp; Politics</em> 34(3): 597–599.<br>
+</li>
+<li>Bennett, Andrew. 2002. “Perestroika Lost: Why the Latest ‘Reform’ Movement in Political Science Should Fail.” <em>PS: Political Science &amp; Politics</em> 35(2): 177–179.</li>
+</ul>
+<section id="recitation-is-political-science-a-science" class="level5">
+<h5 data-anchor-id="recitation-is-political-science-a-science"><em>Recitation</em>: Is Political Science a Science?</h5>
+<ul>
+<li><a href="https://www.nytimes.com/2009/10/20/books/20poli.html?_r=1" target="_blank">“Just How Relevant is Political Science?”</a> <em>New York Times</em>, October 19, 2009.<br>
+</li>
+<li><a href="https://blogs.scientificamerican.com/cross-check/is-social-science-an-oxymoron-will-that-ever-change/" target="_blank">“Is ‘Social Science’ an Oxymoron?”</a> <em>Scientific American</em>, April 4, 2013.<br>
+</li>
+<li><a href="https://www.washingtonpost.com/news/monkey-cage/wp/2017/10/04/justice-roberts-said-political-science-is-sociological-gobbledygook-heres-why-he-said-it-and-why-hes-mistaken/" target="_blank">“Justice Roberts Said Political Science is ‘Sociological Gobbledygook.’”</a> <em>Washington Post</em>, October 4, 2017.</li>
+</ul>
+</section>
+</section>
+<section id="theories-hypotheses-variables" class="level4">
+<h4 data-anchor-id="theories-hypotheses-variables">3. <a href="materials.html#theories-hypotheses-variables">Theories, Hypotheses, Variables</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapters 2 and 5.</li>
+<li>Weber, Erik. 2022. “On Laws of Politics and How to Establish Them.” <em>PS: Political Science &amp; Politics</em> 55(3): 457–461.</li>
+</ul>
+</section>
+<section id="measurement" class="level4">
+<h4 data-anchor-id="measurement">4. <a href="materials.html#measurement">Measurement</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapter 3.<br>
+</li>
+<li>Sullivan, John L., James Piereson, and George E. Marcus. 1979. “An Alternative Conceptualization of Political Tolerance: Illusory Increases: 1950s–1970s.” <em>American Political Science Review</em> 73(3): 781–794.<br>
+</li>
+<li>Lührmann, Anna, et al.&nbsp;2018. “Regimes of the World (RoW): Opening New Avenues for the Comparative Study of Political Regimes.” <em>Politics and Governance</em> 6(1): 60–77.</li>
+</ul>
+<section id="recitation-theory-variables-and-measurement-in-political-science" class="level5">
+<h5 data-anchor-id="recitation-theory-variables-and-measurement-in-political-science"><em>Recitation</em>: Theory, Variables, and Measurement in Political Science</h5>
+<ul>
+<li><a href="http://www.nytimes.com/2014/08/28/opinion/nicholas-kristof-is-everyone-a-little-bit-racist.html?hp&amp;action=click&amp;pgtype=Homepage&amp;module=c-column-top-span-region&amp;region=c-column-top-span-region&amp;WT.nav=c-column-top-span-region&amp;_r=0" target="_blank">“Is Everyone a Little Bit Racist?”</a> <em>New York Times</em>, August 28, 2014.<br>
+</li>
+<li><a href="https://www.almendron.com/tribuna/the-bogus-science-of-secondhand-smoke/" target="_blank">“The Bogus ‘Science’ of Second Hand Smoke.”</a> <em>Washington Post</em>, January 30, 2007.<br>
+</li>
+<li><a href="https://www.nytimes.com/2022/04/29/world/asia/south-korea-age-yoon.html?referringSource=articleShare" target="_blank">“Millions of South Koreans Could Soon Get Younger (On Paper).”</a> <em>New York Times</em>, April 29, 2022.<br>
+</li>
+<li><a href="https://www.nytimes.com/2021/09/30/us/police-killings-undercounted-study.html?referringSource=articleShare" target="_blank">“More Than Half of Police Killings Are Mislabeled, New Study Says.”</a> <em>New York Times</em>, September 30, 2021.<br>
+</li>
+<li><a href="https://www.nytimes.com/2021/05/15/opinion/noise-bias-kahneman.html?action=click&amp;module=Opinion&amp;pgtype=Homepage" target="_blank">“Bias Is a Big Problem. But So is ‘Noise.’”</a> <em>New York Times</em>, May 15, 2021.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="unit-2-research-designs-in-political-science" class="level3">
+<h3 data-anchor-id="unit-2-research-designs-in-political-science">Unit 2: Research Designs in Political Science</h3>
+<section id="causality" class="level4">
+<h4 data-anchor-id="causality">1. <a href="materials.html#causality">Causality</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapter 4.<br>
+</li>
+<li>Bueno de Mesquita, Ethan and Anthony Fowler. 2021. “Causation: What Is It and What Is It Good For?” In <em>Thinking clearly with data: a guide to quantitative reasoning and analysis</em>. Princeton: Princeton University Press.</li>
+</ul>
+</section>
+<section id="experimental-designs" class="level4">
+<h4 data-anchor-id="experimental-designs">2. <a href="materials.html#experimental-designs">Experimental Designs</a></h4>
+<ul>
+<li>Bueno de Mesquita, Ethan and Anthony Fowler. 2021. “Randomized Experiments.” In <em>Thinking clearly with data: a guide to quantitative reasoning and analysis</em>. Princeton: Princeton University Press.</li>
+<li>Iyengar, Shanto, Mark D. Peters, and Donald R. Kinder. 1982. “Experimental Demonstrations of the ‘Not-So-Minimal’ Consequences of Television News Programs.” <em>American Political Science Review</em> 76(4): 848–858. <em>[Lab Experiment]</em></li>
+<li>Gerber, Alan S. and Donald P. Green. 2000. “The Effects of Canvassing, Telephone Calls, and Direct Mail on Voter Turnout: A Field Experiment.” <em>American Political Science Review</em> 94(3): 653–663. <em>[Field Experiment]</em></li>
+</ul>
+<section id="recitation-causality-and-experimentation-in-political-science" class="level5">
+<h5 data-anchor-id="recitation-causality-and-experimentation-in-political-science"><em>Recitation</em>: Causality and Experimentation in Political Science</h5>
+<ul>
+<li><a href="http://www.slate.com/articles/business/crosspollination/2014/03/randomized_controlled_trials_do_they_work_for_economic_development.html" target="_blank">“Random Acts: What Happens When You Approach Global Poverty as a Science Experiment”</a>, <em>Slate</em>, March 26, 2014.<br>
+</li>
+<li><a href="http://www.slate.com/articles/health_and_science/science/2014/06/facebook_unethical_experiment_it_made_news_feeds_happier_or_sadder_to_manipulate.html" target="_blank">“Facebook’s Unethical Experiment”</a>, <em>Slate</em>, June 28, 2014.<br>
+</li>
+<li><a href="https://www.nytimes.com/2014/10/29/upshot/professors-research-project-stirs-political-outrage-in-montana.html" target="_blank">“Professors’ Research Project Stirs Political Outrage in Montana”</a>, <em>New York Times</em>, October 18, 2014.<br>
+</li>
+<li><a href="https://www.washingtonpost.com/opinions/2019/12/03/what-would-happen-if-we-randomly-gave-poor-families-now-we-know/" target="_blank">“What Would Happen if We Randomly Gave $1,000 to Poor Families? Now We Know”</a>, <em>Washington Post</em>, March 12, 2019.<br>
+</li>
+<li><a href="https://www.nytimes.com/2018/11/19/science/science-research-fraud-reproducibility.html" target="_blank">“The Experiments Are Fascinating. But Nobody Can Repeat Them”</a>, <em>New York Times</em>, November 19, 2018.</li>
+</ul>
+</section>
+</section>
+<section id="quasi-experiments" class="level4">
+<h4 data-anchor-id="quasi-experiments">3. <a href="materials.html#quasi-experiments">Quasi-Experiments</a></h4>
+<ul>
+<li>Posner, Daniel N. 2004. “The Political Salience of Cultural Difference: Why Chewas and Tumbukas Are Allies in Zambia and Adversaries in Malawi.” <em>American Political Science Review</em> 98(3): 529–545. <em>[Natural Experiment]</em></li>
+<li>Hopkins, Daniel J. and Katherine T. McCabe. 2012. “After It’s Too Late: Estimating the Policy Impacts of Black Mayoralities in U.S. Cities.” <em>American Politics Research</em> 40(4): 665–700. <em>[Regression Discontinuity]</em></li>
+<li>Sønderskov, Kim Mannemar, Peter Thisted Dinesen, Steven E. Finkel, and Kasper M. Hansen. 2022. “Crime Victimization Increases Turnout: Evidence from Individual-Level Administrative Panel Data.” <em>British Journal of Political Science</em> 52(1): 399–407. <em>[Difference-in-Differences]</em></li>
+</ul>
+</section>
+<section id="observational-designs" class="level4">
+<h4 data-anchor-id="observational-designs">4. <a href="materials.html#observational-designs">Observational Designs</a></h4>
+<ul>
+<li>Finkel, Steven E. 1985. “Reciprocal Effects of Political Participation and Political Efficacy: A Panel Analysis.” <em>American Journal of Political Science</em> 29(4): 891–913. <em>[Panel Analysis]</em><br>
+</li>
+<li>MacKuen, Michael B., Robert S. Erikson, and James A. Stimson. 1989. “Macropartisanship.” <em>American Political Science Review</em> 83(4): 1125–1142. <em>[Time Series Analysis]</em></li>
+<li>Dalton, Russell, Alix Van Sickle, and Steven Weldon. 2010. “The Individual-Institutional Nexus of Protest Behavior.” <em>British Journal of Political Science</em> 40(1): 51–73. <em>[Multilevel Analysis]</em></li>
+</ul>
+<section id="recitation-quasi-experiments-and-observational-research-in-political-science" class="level5">
+<h5 data-anchor-id="recitation-quasi-experiments-and-observational-research-in-political-science"><em>Recitation</em>: Quasi-Experiments and Observational Research in Political Science</h5>
+<ul>
+<li><a href="https://www.nytimes.com/2018/03/12/well/family/why-demonstrating-is-good-for-kids.html" target="_blank">“Why Demonstrating Is Good for Kids”</a>, <em>New York Times</em>, March 12, 2018.<br>
+</li>
+<li><a href="https://www.nytimes.com/2018/01/30/upshot/do-fast-and-furious-movies-cause-a-rise-in-speeding.html" target="_blank">“Do ‘Fast and Furious’ Movies Cause a Rise in Speeding?”</a>, <em>New York Times</em>, January 30, 2018.<br>
+</li>
+<li><a href="https://www.washingtonpost.com/outlook/2021/08/31/covid-israel-hospitalization-rates-simpsons-paradox/" target="_blank">“Coronavirus Vaccines Work. But This Statistical Illusion Makes People Think They Don’t”</a>, <em>Washington Post</em>, August 31, 2021.<br>
+</li>
+<li><a href="https://www.nytimes.com/2013/06/16/magazine/study-women-denied-abortions.html" target="_blank">“What Happens to Women Who Are Denied Abortions”</a>, <em>New York Times</em>, June 12, 2013. <em>(referencing <a href="https://www.ansirh.org/research/ongoing/turnaway-study" target="_blank">The Turnaway Study</a>)</em><br>
+</li>
+<li><a href="https://time.com/6045637/not-prosecuting-misdemeanors-reduce-crime/" target="_blank">“A New Study Reveals That Not Prosecuting People for Nonviolent Misdemeanors May Actually Reduce Crime”</a>, <em>Time</em>, May 4, 2021.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="unit-3-research-designs-ii-formal-comparative-and-qualitative-approaches" class="level3">
+<h3 data-anchor-id="unit-3-research-designs-ii-formal-comparative-and-qualitative-approaches">Unit 3: Research Designs II — Formal, Comparative, and Qualitative Approaches</h3>
+<section id="rational-choice-and-formal-modeling" class="level4">
+<h4 data-anchor-id="rational-choice-and-formal-modeling">1. <a href="materials.html#rational-choice-and-formal-modeling">Rational Choice and Formal Modeling</a></h4>
+<ul>
+<li>Johnson, Janet Buttolph and H.T. Reynolds. 2012. “Formal Modeling and Simulation.” In <em>Political Science Research Methods</em>, 7th ed.&nbsp;CQ Press, pp.&nbsp;207–213.<br>
+</li>
+<li>Riker, William H. 1990. “Political Science and Rational Choice.” Chapter. In Perspectives on Positive Political Economy, edited by James E. Alt and Kenneth A. Shepsle, 163–81. Cambridge: Cambridge University Press.<br>
+</li>
+<li>Stewart, Charles. 2001. <em>Analyzing Congress</em>. W. W. Norton &amp; Company, Chapter 1, pp.&nbsp;3–22.</li>
+</ul>
+<section id="recitation-rational-choice-models-in-political-science" class="level5">
+<h5 data-anchor-id="recitation-rational-choice-models-in-political-science"><em>Recitation</em>: Rational Choice Models in Political Science</h5>
+<ul>
+<li><a href="http://www.slate.com/id/2212340/pagenum/all/" target="_blank">“The 10 Cunning Ways Public Radio Stations Convince You to Give Them Money”</a>, <em>Slate</em>, March 2, 2009.<br>
+</li>
+<li><a href="https://www.newyorker.com/news/our-columnists/how-game-theory-explains-the-leaks-in-the-trump-white-house" target="_blank">“How Game Theory Explains the Leaks in the Trump White House”</a>, <em>The New Yorker</em>, May 15, 2018.<br>
+</li>
+<li><a href="https://www.nytimes.com/2020/12/20/health/virus-vaccine-game-theory.html?referringSource=articleShare" target="_blank">“The Pandemic is a Prisoner’s Dilemma Game”</a>, <em>New York Times</em>, December 20, 2020.<br>
+</li>
+<li><a href="https://www.nytimes.com/2010/02/07/business/economy/07view.html?searchResultPosition=1" target="_blank">“Why Politics Is Stuck in the Middle”</a>, <em>New York Times</em>, February 6, 2010.<br>
+</li>
+<li><a href="https://www.washingtonpost.com/politics/interactive/2021/ranked-choice-voting-guide/" target="_blank">“How Ranked Choice Voting Could Change the Way Democracy Works”</a>, <em>Washington Post</em>, June 21, 2021.</li>
+</ul>
+</section>
+</section>
+<section id="comparative-and-qualitative-research" class="level4">
+<h4 data-anchor-id="comparative-and-qualitative-research">2. <a href="materials.html#comparative-and-qualitative-research">Comparative and Qualitative Research</a></h4>
+<ul>
+<li>Johnson, Janet Buttolph and H.T. Reynolds. 2012. <em>Political Science Research Methods</em>. CQ Press, Chapter 10.<br>
+</li>
+<li>Peters, B. Guy. 1998. “The Logic of Comparison.” In <em>Comparative Politics: Theory and Method</em>. New York University Press.<br>
+</li>
+<li>Bennett, Andrew and Colin Elman. 2007. “Case Study Methods in the International Relations Subfield.” <em>Comparative Political Studies</em> 40(2): 170-195.<br>
+</li>
+<li>Davies, Peter. 2004. “Qualitative Research and Evaluation: How Do You Know Why (and How) Something Works?” Chapter 8 in <em>The Magenta Book: Guidance Notes for Policy Evaluation and Analysis</em>. Government Chief Social Researcher’s Office (UK).</li>
+</ul>
+<section id="recitation-comparative-and-qualitative-analysis" class="level5">
+<h5 data-anchor-id="recitation-comparative-and-qualitative-analysis"><em>Recitation</em>: Comparative and Qualitative Analysis</h5>
+<ul>
+<li><a href="https://slate.com/news-and-politics/2015/01/why-was-tunisia-the-only-arab-spring-country-that-turned-out-well.html" target="_blank">“Why Was Tunisia the Only Arab Spring Country That Turned Out Well?”</a>, <em>Slate</em>, January 28, 2015.<br>
+</li>
+<li><a href="https://www.nytimes.com/2022/04/12/opinion/conservative-voters-america.html?referringSource=articleShare" target="_blank">“These Eight Conservative Men Are Making No Apologies”</a>, <em>New York Times</em>, April 12, 2022.<br>
+</li>
+<li><a href="https://nytimesineducation.com/what-explains-u-s-mass-shootings-international-comparisons-suggest-an-answer/" target="_blank">“What Explains U.S. Mass Shootings? International Comparisons Suggest an Answer”</a>, <em>New York Times</em>, November 7, 2017.<br>
+</li>
+<li><a href="https://www.nytimes.com/2022/05/15/world/australia/covid-deaths.html?referringSource=articleShare" target="_blank">“How Australia Saved Thousands of Lives While Covid Killed a Million Americans”</a>, <em>New York Times</em>, May 15, 2022.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="unit-4-data-collection-strategies" class="level3">
+<h3 data-anchor-id="unit-4-data-collection-strategies">Unit 4: Data Collection Strategies</h3>
+<section id="survey-research" class="level4">
+<h4 data-anchor-id="survey-research">1. <a href="materials.html#survey-research">Survey Research</a></h4>
+<ul>
+<li>Johnson, Janet Buttolph and H.T. Reynolds. 2012. <em>Political Science Research Methods</em>, Chapter 10.<br>
+</li>
+<li>Blair, Graeme, C. Christine Fair, Neil Malhotra, and Jacob N. Shapiro. 2013. “Poverty and Support for Militant Politics: Evidence from Pakistan.” <em>American Journal of Political Science</em> 57(1): 30–48.<br>
+</li>
+<li>Montalvo, J. Daniel, Georgina Pizzolitto, and Luke Plutowski. 2022. <em>Telephone Sampling in the 2021 AmericasBarometer: Methodological Note</em>. Latin American Public Opinion Project (LAPOP), Vanderbilt University.</li>
+</ul>
+</section>
+<section id="content-analysis-and-big-data" class="level4">
+<h4 data-anchor-id="content-analysis-and-big-data">2. <a href="materials.html#content-analysis-and-big-data">Content Analysis and Big Data</a></h4>
+<ul>
+<li>Jungherr, Andreas and Yannis Theocharis. 2017. “The Empiricist’s Challenge: Asking Meaningful Questions in Political Science in The Age of Big Data.” <em>Journal of Information Technology &amp; Politics</em> 14(2): 97–109.<br>
+</li>
+<li>Nagler, Jonathan and Joshua A. Tucker. 2015. “Drawing Inferences and Testing Theories with Big Data.” <em>PS: Political Science &amp; Politics</em> 48(1): 84–88.</li>
+</ul>
+<section id="recitation-survey-research-and-big-data-in-political-science" class="level5">
+<h5 data-anchor-id="recitation-survey-research-and-big-data-in-political-science"><em>Recitation</em>: Survey Research and Big Data in Political Science</h5>
+<ul>
+<li><a href="https://www.washingtonpost.com/politics/2020-poll-errors/2021/07/18/8d6a9838-e7df-11eb-ba5d-55d3b5ffcaf1_story.html" target="_blank">“2020 Presidential Polls Suffered Worst Performance in Decades.”</a> <em>New York Times</em>, July 18, 2021.<br>
+</li>
+<li><a href="https://www.washingtonpost.com/politics/2022/05/07/american-abortion-feelings-polling/" target="_blank">“Why It’s So Difficult to Poll Americans’ Feelings About Abortion.”</a> <em>Washington Post</em>, May 7, 2022.<br>
+</li>
+<li><a href="https://www.washingtonpost.com/technology/2022/01/06/jan6-algorithms-prediction-violence/" target="_blank">“The Battle to Prevent Another January 6 Features a New Weapon: The Algorithm.”</a> <em>Washington Post</em>, January 6, 2022.<br>
+</li>
+<li><a href="https://www.nytimes.com/2014/04/07/opinion/eight-no-nine-problems-with-big-data.html" target="_blank">“Eight (No, Nine!) Problems with Big Data.”</a> <em>New York Times</em>, April 6, 2014.<br>
+</li>
+<li><a href="https://www.theguardian.com/commentisfree/2018/mar/05/algorithms-rate-credit-scores-finances-data" target="_blank">“The Tyranny of Algorithms Is Part of Our Lives: Soon They Could Rate Everything We Do.”</a> <em>The Guardian</em>, March 5, 2018.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="unit-5-basic-statistical-methods" class="level3">
+<h3 data-anchor-id="unit-5-basic-statistical-methods">Unit 5: Basic Statistical Methods</h3>
+<section id="descriptive-statistics-and-introduction-to-inference" class="level4">
+<h4 data-anchor-id="descriptive-statistics-and-introduction-to-inference">1. <a href="materials.html#descriptive-statistics">Descriptive Statistics and Introduction to Inference</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapter 6.<br>
+</li>
+<li>Parikh, Ravi. 2014. “How to Lie with Data Visualization.” <em>Heap Blog</em>, April 14.</li>
+</ul>
+</section>
+<section id="statistical-inference-and-hypothesis-testing" class="level4">
+<h4 data-anchor-id="statistical-inference-and-hypothesis-testing">2. <a href="materials.html#statistical-inference">Statistical Inference and Hypothesis Testing</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapter 7.</li>
+</ul>
+</section>
+<section id="cross-tabulation" class="level4">
+<h4 data-anchor-id="cross-tabulation">3. <a href="materials.html#cross-tabulation">Cross-Tabulation</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapter 7.</li>
+</ul>
+</section>
+<section id="correlation-and-regression" class="level4">
+<h4 data-anchor-id="correlation-and-regression">4. <a href="materials.html#correlation-and-regression">Correlation and Regression</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapter 8.</li>
+</ul>
+</section>
+<section id="multivariate-analysis" class="level4">
+<h4 data-anchor-id="multivariate-analysis">5. <a href="materials.html#multivariate-analysis">Multivariate Analysis</a></h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapters 9 and 10.<br>
+</li>
+<li>Lewis-Beck, Colin, and Michael Lewis-Beck. 2016. <em>Applied Regression: An Introduction</em>. 2nd ed., Thousand Oaks, CA: Sage Publications, Inc., pp.&nbsp;9–46.</li>
+</ul>
+</section>
+<section id="advanced-topics-in-quantitative-methods" class="level4">
+<h4 data-anchor-id="advanced-topics-in-quantitative-methods">6. Advanced Topics in Quantitative Methods</h4>
+<ul>
+<li>Kellstedt, Paul M. and Guy D. Whitten. 2018. <em>The Fundamentals of Political Science Research</em>, 3rd ed.&nbsp;Cambridge: Cambridge University Press, Chapters 11 and 12.</li>
+</ul>
+</section>
+</section>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
